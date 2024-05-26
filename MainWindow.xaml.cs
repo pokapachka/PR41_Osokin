@@ -23,6 +23,7 @@ namespace ПР41_Осокин
         public MainWindow()
         {
             InitializeComponent();
+            frame.Navigate(new View.Main());
         }
     }
 }
